@@ -1,0 +1,16 @@
+*{margin:0;}
+
+#tm{
+  font-size: 50px;
+}
+#date{
+  font-size: 20px;
+}
+#box{
+  position: absolute;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
