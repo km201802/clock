@@ -26,6 +26,11 @@ function Dt() {
     //document.getElementById("date").innerHTML = names.dias[day] + ", " + monthDay + " de " + names.meses[month] + " de " + years;
 }
 
+document.body.onclick = function(e){
+    document.body.style.background = "#2a2a35";
+    document.body.style.color = "#fff";
+}
+
 
 time();
 setInterval(time, 50);
