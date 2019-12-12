@@ -25,11 +25,18 @@ function Dt() {
     document.getElementById("date").innerHTML = names.days[day]+", "+names.months[month]+" "+monthDay+", "+years;
     //document.getElementById("date").innerHTML = names.dias[day] + ", " + monthDay + " de " + names.meses[month] + " de " + years;
 }
-
+var color = 1;
 document.body.onclick = function(e){
-    document.body.style.background = "#2a2a35";
-    document.body.style.color = "#fff";
-    document.getElementById("box").style.borderColor = "#fff";
+    if(color == 1){
+        document.body.style.background = "#2a2a35";
+        document.body.style.color = "#fff";
+        document.getElementById("box").style.borderColor = "#fff";
+    }else{
+        document.body.style.background = "#fff";
+        document.body.style.color = "#000";
+        document.getElementById("box").style.borderColor = "#000";
+    }
+    color = -color;
 }
 
 
