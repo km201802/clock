@@ -29,6 +29,7 @@ function Dt() {
 document.body.onclick = function(e){
     document.body.style.background = "#2a2a35";
     document.body.style.color = "#fff";
+    document.getElementById("box").style.borderColor = "#fff";
 }
 
 
