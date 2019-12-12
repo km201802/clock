@@ -26,7 +26,7 @@ function Dt() {
     //document.getElementById("date").innerHTML = names.dias[day] + ", " + monthDay + " de " + names.meses[month] + " de " + years;
 }
 var color = 1;
-document.onclick = function(e){
+document.body.onclick = function(e){
     if(color == 1){
         document.body.style.background = "#2a2a35";
         document.body.style.color = "#fff";
